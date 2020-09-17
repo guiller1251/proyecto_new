@@ -1,0 +1,192 @@
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col align-self-start">
+
+                <div class="item1">
+                    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+                        <img class="navar" src="../../assets/logo.jpg" alt="">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="registro">Registro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="nosotros">Nosotros</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1>Login</h1>
+                <input type="email" name="email" placeholder="Email" required="required" [(ngModel)]="Correo">
+                <input type="password" name="password" placeholder="Password" required="required" [(ngModel)]="Password">
+                <button (click)="validar()" type="button" class="btn btn-info">Acceder</button><br />
+                <hr />
+                <button (click)="registrar()" class="registrar" type="button" class="btn btn-info">Registrar</button>
+                <button class="olvido" type="button" class="btn btn-info">Olvido Password</button>
+
+
+            </div>
+
+            <div class="col">
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <img class="logo" src="../../assets/logo.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <br />
+
+
+    <div class="container">
+        <div class="container-fluid bg-1 text-center">
+            <h3>¿Quien soy?</h3>
+            <img src="../../assets/perro.jpg" class="img-circle" alt="Bird" width="350" height="350">
+            <h3>Soy un aventurero</h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="carrusel" src="../../assets/huron.jpg" alt="Los Angeles">
+                    </div>
+
+                    <div class="item">
+                        <img class="carrusel" src="../../assets/perro2.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                        <img class="carrusel" src="../../assets/perro3.jpg" alt="New York">
+                    </div>
+                </div>
+
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/gato2.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Soy un juguetón</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/perro.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Tengo mucho cariño por entregar</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/perro2.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Soy un travieso y juguetón</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/huron.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Me gustan los niños</p>
+                            <span class="label label-primary">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/mascota6.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Me cuido y te cuido</p>
+                            <span class="label label-primary">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/mascota7.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Solo quiero un hogar y mucho cariño</p>
+                            <span class="label label-primary">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/mascota8.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Soy un comilón</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/www.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Soy muy cariñoso</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="img-responsive" src="../../assets/mascota9.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Me gusta mucho la comida y el cariño</p>
+                            <span class="label label-info">Para conocerme más inicia sesión o registrate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
