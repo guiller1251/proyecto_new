@@ -32,14 +32,7 @@ export class PaginaInicioComponent implements OnInit {
   Correo: string;
   Password: string;
 
-  ingresar(): void {
-    if (this.UsuarioService.Validar(this.Correo, this.Password) == null) {
-      this.login = false
-      alert("Usuario invalido")
-    } else {
-      this.login = true
-    }
-  }
+
 
   validar() {
 
